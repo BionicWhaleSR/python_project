@@ -7,8 +7,20 @@ if playing != "yes":
 
 print("Okay! Let's play :)")
 
-anwer = input("What does CPU stand for? ")
+answer = input("What does CPU stand for? ")
 if answer == "central processing unit":
+	print('Correct!')
+else:
+	print("Incorrect!")
+
+answer = input("What does ROM stand for? ")
+if answer == "read only memory":
+	print('Correct!')
+else:
+	print("Incorrect!")
+
+answer = input("What does RAM stand for?")
+if answer == "read access memory":
 	print('Correct!')
 else:
 	print("Incorrect!")
