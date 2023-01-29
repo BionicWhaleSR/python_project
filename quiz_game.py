@@ -25,4 +25,3 @@ if answer == "read access memory":
 else:
 	print("Incorrect!")
 
-quit()
